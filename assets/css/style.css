@@ -75,7 +75,7 @@ p:last-child {
 
 .header-container, .main-container
 {
-  /*width: 60%;*/
+  width: 60%;
   /*width: 960px;*/
   /*margin: 0 auto;*/
 }
@@ -95,15 +95,15 @@ p:last-child {
 
 #main-content{
   background-color: #ffffff;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
   padding:5px 25px 25px 25px;
 }
 
 #side-bar{
   background-color: #ffffff;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
   padding:5px 25px 25px 25px;
 }
 

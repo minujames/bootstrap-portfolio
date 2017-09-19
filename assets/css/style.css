@@ -186,4 +186,17 @@ textarea{
     width: 100%;
     height: auto;
   }
+
+  #logo{
+    width: 100%;
+  }
+
+  #navbar-links {
+    text-align: center;
+  }
+
+  .links > li
+  {
+    display: inline-block;
+  }
 }

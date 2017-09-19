@@ -9,9 +9,9 @@ This is a project for showcasing the basic portfolio. It includes three pages 'A
 * Responsive Images
 
 ## Built With
-*[Bootstrap 3.3.6](http://bootstrapdocs.com/v3.3.6/docs/)
-*[HTML](https://www.w3schools.com/html/)
-*[CSS](https://www.w3schools.com/css/)
+* [Bootstrap 3.3.6](http://bootstrapdocs.com/v3.3.6/docs/)
+* [HTML](https://www.w3schools.com/html/)
+* [CSS](https://www.w3schools.com/css/)
 
 ## Deployment
 The portfolio website is accessible at https://minujames.github.io/

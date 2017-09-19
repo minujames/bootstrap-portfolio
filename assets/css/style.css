@@ -17,7 +17,6 @@ h1, h2, h3, h4, h5, h6{
   font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
-
 h2,h3{
   color: #4aaaa5;
   font-weight: bold;
@@ -75,9 +74,8 @@ p:last-child {
 
 .header-container, .main-container
 {
-  width: 60%;
+  /*width: 60%;*/
   /*width: 960px;*/
-  /*margin: 0 auto;*/
 }
 
 .navbar-collapse:last-child{
@@ -108,8 +106,8 @@ p:last-child {
 }
 
 #profile-img{
-  width: 220px;
-  height: 200px;
+  width: 45%;
+  height: auto;
   margin-right: 20px;
   margin-bottom: 20px;
 }
@@ -137,21 +135,15 @@ p:last-child {
 }
 
 .project-image{
-  /*width: 280px;*/
-  /*height: 200px;*/
   position: relative;
   width: 100%;
   height: auto;
   display: block;
-  /*padding: 10px 0 10px 0;*/
   float: left;
   padding:0;
 }
 
 .project{
-  /*width: 280px;*/
-  /*height: 200px;*/
-  /*background-color: yellow;*/
   width: 100%;
   height: 100%;
   padding: 15px 0;
@@ -175,4 +167,23 @@ textarea{
   border-style: solid 2px;
 }
 
+@media screen and (max-width: 1199px) {
+  #profile-img{
+    width: 100%;
+    height: auto;
+  }
+}
 
+@media screen and (max-width: 991px) {
+  #profile-img{
+    width: 45%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #profile-img{
+    width: 100%;
+    height: auto;
+  }
+}
